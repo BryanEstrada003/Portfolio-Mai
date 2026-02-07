@@ -58,6 +58,8 @@ const Assets = {
 	Redis: asset('redis.svg'),
 	Tailwind: asset('tailwind.svg'),
 	HTML: asset('html.svg'),
+	ESPOL: asset('espol_logo.svg'),
+	ESPOL_w: asset('espol_logo.png'),
 	Premiere: asset('premiere.svg'),
 	Photoshop: asset('photoshop.svg'),
 	CSS: asset('css.svg'),
