@@ -1,5 +1,5 @@
-const firstName = 'Michael B.';
-const lastName = 'Estrada Santana';
+const firstName = 'Michael';
+const lastName = 'Estrada';
 const suffix = 'Slick Portfolio With Svelte 5';
 
 const BaseData = {
@@ -8,6 +8,9 @@ const BaseData = {
 	suffix,
 	get fullName() {
 		return `${firstName} ${lastName}`;
+	},
+	get FirstName() {
+		return this.firstName;
 	}
 };
 
