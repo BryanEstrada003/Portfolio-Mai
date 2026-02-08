@@ -11,12 +11,11 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'Computer Science student with experience in data analysis, data engineering, and computer vision. Specialized in developing and optimizing 2D and 3D models using CNN architectures, as well as ETL processes, SAP automation with Python, and BigQuery. Seeking challenging opportunities to innovate and continue professional growth.',
 	links: [
-		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
-		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'GitHub', href: 'https://github.com/BryanEstrada003', icon: 'i-carbon-logo-github' },
+		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/maiestrada/', icon: 'i-carbon-logo-linkedin' },
+		{ label: 'Email', href: 'mailto:mbestrad@espol.edu.ec', icon: 'i-carbon-at' }
 	]
 };
 
