@@ -36,7 +36,9 @@ const Assets = {
 	Vitapro: asset('vitapro.png'),
 	Zede: asset('zede_non_back.png', 'zede.png'),
 	Open3D: asset('open3d.png'),
-	R: asset('r.svg')
+	R: asset('r.svg'),
+	Cotton: asset('cotton.jpg'),
+	Mai: asset('logo_mai.svg'),
 };
 
 export default Assets;
