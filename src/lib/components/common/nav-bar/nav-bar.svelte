@@ -63,9 +63,6 @@
 				<Icon icon="i-carbon-search" />
 			</Button>
 		</a>
-		<Button variant="ghost" class="text-xl" on:click={toggleMode}>
-			<Icon icon={isDarkMode ? 'i-carbon-moon' : 'i-carbon-sun'} />
-		</Button>
 	</div>
 
 	<!-- sm -->
@@ -105,15 +102,6 @@
 							</Button>
 						</a>
 					</DialogClose>
-					<Separator />
-					<Button
-						class="flex w-full flex-row items-center justify-start gap-2"
-						variant="ghost"
-						on:click={toggleMode}
-					>
-						<Icon icon={isDarkMode ? 'i-carbon-moon' : 'i-carbon-sun'} className="text-xl" />
-						<div>{isDarkMode ? 'Dark' : 'Light'}</div>
-					</Button>
 				</div>
 				<DialogFooter class="items-end">
 					<DialogClose>
