@@ -29,7 +29,7 @@ body {
 		--ring: 243 0% 4%;
 		--radius: 0.5rem;
 	}
-	.dark {
+	/* .dark {
 		--background: 0 0% 0%;
 		--foreground: 243 0% 90%;
 		--card: 243 0% 0%;
@@ -50,7 +50,7 @@ body {
 		--input: 250 2% 25%;
 		--ring: 243 0% 100%;
 		--radius: 0.5rem;
-	}
+	} */
 }
 
 @layer base {
