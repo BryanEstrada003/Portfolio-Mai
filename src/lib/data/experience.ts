@@ -17,7 +17,12 @@ const items: Array<Experience> = [
 		skills: getSkills('python', 'pytorch', 'tensorflow', 'opencv', 'open3d', 'linux', 'git', 'docker', 'latex', 'typst'),
 		name: 'Research Assistant - Computer Vision',
 		color: 'purple',
-		links: [],
+		links: [
+			{
+				to: 'https://www.cidis.espol.edu.ec/es/content/michael-estrada-santana',
+				label: 'CIDIS-ESPOL website'
+			}
+		],
 		logo: Assets.CIDIS,
 		shortDescription:
 			'Developing computer vision solutions for automated food quality assessment at CIDIS-ESPOL.'
@@ -46,8 +51,8 @@ const items: Array<Experience> = [
 		contract: ContractType.Internship,
 		type: 'UI/UX Design',
 		location: 'Guayaquil, Ecuador',
-		period: { from: new Date(2023, 8, 1), to: new Date(2024, 8, 1) }, // Sep 2023 - Sep 2024
-		skills: getSkills('figma', 'uiux'),
+		period: { from: new Date(2023, 8, 1), to: new Date(2024, 0, 1) }, // Sep 2023 - Jan 2024
+		skills: getSkills('figma'),
 		name: 'UI Designer Intern',
 		color: 'green',
 		links: [],
