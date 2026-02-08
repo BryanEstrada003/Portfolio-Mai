@@ -14,7 +14,7 @@ const items: Array<Experience> = [
 		type: 'Research & Development',
 		location: 'Guayaquil, Ecuador',
 		period: { from: new Date(2025, 0, 1) }, // January 2025 - Present
-		skills: getSkills('python', 'pytorch', 'tensorflow', 'opencv', 'open3d', 'linux', 'git', 'docker', 'latex', 'typst'),
+		skills: getSkills('python', 'pytorch', 'tensorflow', 'opencv', 'open3d', 'linux', 'git', 'docker', 'latex', 'typst', 'sKlearn'),
 		name: 'Research Assistant - Computer Vision',
 		color: 'purple',
 		links: [

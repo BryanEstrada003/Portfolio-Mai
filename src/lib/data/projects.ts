@@ -4,6 +4,21 @@ import type { Project } from './types';
 
 const items: Array<Project> = [
 	{
+		slug: 'portfolio-mai',
+		color: '#ff3e00',
+		description:
+			'A personal portfolio website built on the Slick Portfolio Svelte template, customized with my projects, skills, and professional information.',
+		shortDescription: 'Personal portfolio based on the Slick Portfolio Svelte template.',
+		links: [{ to: 'https://github.com/BryanEstrada003/Portfolio-Mai', label: 'GitHub Repository' }],
+		logo: Assets.Mai,
+		name: 'Portfolio Mai',
+		period: {
+			from: new Date(2026, 1, 7)
+		},
+		skills: getSkills('svelte', 'git'),
+		type: 'Personal Portfolio Website'
+	},
+	{
 		slug: 'cotton-leaf-defect-classification',
 		color: 'green',
 		description:
@@ -25,7 +40,7 @@ const items: Array<Project> = [
 			from: new Date(2025, 8, 30), // September 2025
 			to: new Date(2026, 0, 8) // January 2026
 		},
-		skills: getSkills('python', 'pytorch', 'tensorflow', 'git'),
+		skills: getSkills('python', 'pytorch', 'tensorflow', 'git', 'sKlearn'),
 		type: 'AI Research Project & Web Application',
 		screenshots: [
 			{
@@ -43,19 +58,42 @@ const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'portfolio-mai',
-		color: '#ff3e00',
+		slug: 'medical-student-mental-health-analysis',
+		color: '#4CAF50',
 		description:
-			'A personal portfolio website built on the Slick Portfolio Svelte template, customized with my projects, skills, and professional information.',
-		shortDescription: 'Personal portfolio based on the Slick Portfolio Svelte template.',
-		links: [{ to: 'https://github.com/BryanEstrada003/Portfolio-Mai', label: 'GitHub Repository' }],
-		logo: Assets.Mai,
-		name: 'Portfolio Mai',
+			'Statistical analysis comparing self-perception vs. actual mental health status among medical students. Using Python and pandas, this study examines correlations between depression, academic motivation, burnout, and psychological help-seeking behaviors in 886 Swiss medical students.',
+		shortDescription:
+			'Statistical analysis of mental health indicators among medical students using Python and pandas.',
+		links: [
+			{ to: 'https://github.com/BryanEstrada003/Proyecto-1p-Statistic', label: 'GitHub Repository' }
+		],
+		logo: Assets.Med,
+		name: 'Medical Student Mental Health Analysis',
 		period: {
-			from: new Date()
+			from: new Date(2024, 2, 18),
+			to: new Date(2024, 3, 1)
 		},
-		skills: getSkills('svelte', 'git'),
-		type: 'Personal Portfolio Website'
+		skills: getSkills('python', 'pandas', 'jupyter'),
+		type: 'Statistical Research Project'
+	},
+	{
+		slug: 'ser-bachiller-multivariate-analysis',
+		color: '#2196F3',
+		description:
+			'Multivariate analysis of Ecuador\'s "Ser Bachiller" exam results using R and Python. Statistical study examining gender equity, socioeconomic factors, and academic performance correlations across 3,549 students in Milagro.',
+		shortDescription:
+			'Multivariate statistical analysis of Ecuadorian high school exam results using R and Python.',
+		links: [
+			{ to: 'https://github.com/BryanEstrada003/Project-2p-Statistics', label: 'GitHub Repository' }
+		],
+		logo: Assets.SerBachiller,
+		name: 'Ser Bachiller Multivariate Analysis',
+		period: {
+			from: new Date(2024, 3, 8),
+			to: new Date(2024, 3, 21)
+		},
+		skills: getSkills('r', 'python', 'pandas', 'jupyter'),
+		type: 'Statistical Research Project'
 	}
 ];
 

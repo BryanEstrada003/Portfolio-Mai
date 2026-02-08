@@ -39,6 +39,9 @@ const Assets = {
 	R: asset('r.svg'),
 	Cotton: asset('cotton.jpg'),
 	Mai: asset('logo_mai.svg'),
+	SKLearn: asset('scikit-learn.svg'),
+	Med: asset('medical-stud.png'),
+	SerBachiller: asset('ser-bachiller.jpg')
 };
 
 export default Assets;

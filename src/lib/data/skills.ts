@@ -136,6 +136,15 @@ const items = [
 		category: 'cv' // Computer Vision es la categoría perfecta
 	}),
 	defineSkill({
+		slug: 'sKlearn',
+		color: '#F7931E', // Color naranja oficial de scikit-learn
+		description:
+			'Machine learning library for Python used for model evaluation, metrics calculation, and preprocessing. Implemented comprehensive testing pipelines at CIDIS-ESPOL to validate computer vision models using classification reports, confusion matrices, and cross-validation.',
+		logo: Assets.SKLearn, // Necesitarás crear este asset
+		name: 'scikit-learn',
+		category: 'library' // Librería de machine learning
+	}),
+	defineSkill({
 		slug: 'tensorflow',
 		color: '#FF6F00',
 		description:
