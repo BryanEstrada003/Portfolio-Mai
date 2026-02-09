@@ -136,6 +136,15 @@ const items = [
 		category: 'cv' // Computer Vision es la categoría perfecta
 	}),
 	defineSkill({
+		slug: 'sKlearn',
+		color: '#F7931E', // Color naranja oficial de scikit-learn
+		description:
+			'Machine learning library for Python used for model evaluation, metrics calculation, and preprocessing. Implemented comprehensive testing pipelines at CIDIS-ESPOL to validate computer vision models using classification reports, confusion matrices, and cross-validation.',
+		logo: Assets.SKLearn, // Necesitarás crear este asset
+		name: 'scikit-learn',
+		category: 'library' // Librería de machine learning
+	}),
+	defineSkill({
 		slug: 'tensorflow',
 		color: '#FF6F00',
 		description:
@@ -168,7 +177,7 @@ const items = [
 		description:
 			'Svelte is a modern frontend framework for building web applications with reactive components. Used for developing personal website projects with highly responsive interfaces and efficient state management. Svelte Kit is a full-stack framework built on Svelte for application development with built-in routing, server-side rendering, and API endpoints. Used to build optimized personal portfolio websites with excellent performance scores.',
 		logo: Assets.Svelte, // Ya existe en tus assets
-		name: 'Svelte',
+		name: 'Svelte & Svelte Kit',
 		category: 'framework' // Es un framework, no solo una librería
 	}),
 	defineSkill({
